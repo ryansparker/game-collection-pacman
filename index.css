@@ -1,0 +1,34 @@
+.grid {
+    width: 420px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+}
+
+.pac-dot {
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 7.5px;
+}
+
+.pacman {
+    background-color: yellow;
+    border-radius: 7.5px;
+}
