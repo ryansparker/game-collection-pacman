@@ -9,7 +9,7 @@
 .grid div {
     width: 15px;
     height: 15px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .pac-dot {
@@ -31,4 +31,13 @@
 .pacman {
     background-color: yellow;
     border-radius: 7.5px;
+    border: none;
 }
+
+.ghost-lair {
+    background-color: pink;
+}
+
+/* .empty {
+    background-color: bisque;
+} */
